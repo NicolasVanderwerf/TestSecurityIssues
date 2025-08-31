@@ -92,6 +92,10 @@ function verifySignatureSafe(payload, sig) {
   }
 }
 
+function addTwoNumber(num1, num2){
+    return num1 + num2
+}
+
 // ---------- CSRF / Method safety (illustrative only) ----------
 
 function deleteUserUnsafe(query) {
