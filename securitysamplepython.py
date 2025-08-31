@@ -38,6 +38,7 @@ def get_user_by_id_unsafe(user_id: str):
     conn.close()
     return row
 
+# Comments
 # ---------- Commands ----------
 
 def create_archive_safe(src_dir: str):
