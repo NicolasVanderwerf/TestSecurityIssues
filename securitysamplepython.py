@@ -18,9 +18,6 @@ ALLOWED_HOSTS = {"example.com", "api.example.com"}
 HARDCODED_SECRET = "supersecret"  # hardcoded secret in repo
 
 # Small CHange to force refresh
-def addTwoNumber(num1, num2):
-    return num1+num2
-
 # ---------- Database ----------
 
 def get_user_by_id_safe(user_id: int):
